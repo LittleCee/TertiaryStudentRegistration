@@ -70,22 +70,25 @@
                 android:layout_height="wrap_content"
                 android:text="Gender"
                 android:id="@+id/Gender"/>
-            <LinearLayout
+
+            <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
                 <RadioButton
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Male"
                     android:layout_weight="1"
+                    android:checked="true"
                     android:id="@+id/GMale"/>
                 <RadioButton
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Female"
                     android:layout_weight="1"
                     android:id="@+id/GFemale"/>
-            </LinearLayout>
+            </RadioGroup>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
